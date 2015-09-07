@@ -15,7 +15,8 @@ let g:colors_name = 'monochrome'
 
 " These commands are generated, see bin/generate.rb.
 hi Normal guifg=LightGray ctermfg=252 guibg=Black ctermbg=NONE gui=NONE cterm=NONE term=NONE
-hi CursorLine guifg=LightGray ctermfg=252 guibg=#202020 ctermbg=NONE gui=NONE cterm=NONE term=NONE
+hi Cursor guifg=Black ctermfg=16 guibg=LightGray ctermbg=252 gui=NONE cterm=NONE term=NONE
+hi CursorLine guifg=LightGray ctermfg=252 guibg=#202020 ctermbg=234 gui=NONE cterm=NONE term=NONE
 hi CursorLineNr guifg=White ctermfg=15 guibg=Black ctermbg=NONE gui=bold cterm=bold term=bold
 hi FoldColumn guifg=DarkGray ctermfg=248 guibg=Black ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Folded guifg=LightGray ctermfg=252 guibg=Black ctermbg=NONE gui=NONE cterm=NONE term=NONE
@@ -44,8 +45,8 @@ hi perlMatchStartEnd guifg=#778899 ctermfg=67 guibg=Black ctermbg=NONE gui=NONE 
 hi pythonEscape guifg=#778899 ctermfg=67 guibg=Black ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi javaScriptFunction guifg=White ctermfg=15 guibg=Black ctermbg=NONE gui=bold cterm=bold term=bold
 hi elixirDelimiter guifg=#778899 ctermfg=67 guibg=Black ctermbg=NONE gui=NONE cterm=NONE term=NONE
-hi Search guifg=White ctermfg=15 guibg=#778899 ctermbg=NONE gui=NONE cterm=NONE term=NONE
-hi Visual guifg=White ctermfg=15 guibg=#778899 ctermbg=NONE gui=NONE cterm=NONE term=NONE
+hi Search guifg=White ctermfg=15 guibg=#778899 ctermbg=67 gui=NONE cterm=NONE term=NONE
+hi Visual guifg=White ctermfg=15 guibg=#778899 ctermbg=67 gui=NONE cterm=NONE term=NONE
 hi NonText guifg=DarkGray ctermfg=248 guibg=Black ctermbg=NONE gui=NONE cterm=NONE term=NONE
 hi Directory guifg=White ctermfg=15 guibg=Black ctermbg=NONE gui=bold cterm=bold term=bold
 hi Title guifg=White ctermfg=15 guibg=Black ctermbg=NONE gui=bold cterm=bold term=bold
